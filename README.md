@@ -46,6 +46,10 @@ Methodology:
 3. Regular checkups: students share their progress and struggles to the rest of the group, we debug together
 4. In the end, students share their final results
 
+Resources:
+- (Grid Generator) [https://cssgrid-generator.netlify.app/]
+- (Flex Generator) [https://cssflex-generator.netlify.app/]
+
 Notes:
 - setting a fixed size to ```<div>``` as we did in phase 2 is not best practice when developing a real site, as the natural behaviour (which is to fit the size of its content) can be preferred depending on the situation. Students need to be aware of this.
 - When making a real website from scratch, students need to be aware of the nature of the content they are dealing with to make relevant choices. For instance, there can be the temptation to use a grid for the whole website, whereas it would be more advised to break it down by sections. I've seen this mistake a lot, so before creating a full website from scratch students needs to plan on how they will break down the sections before going into the code.
