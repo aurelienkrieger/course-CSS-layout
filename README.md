@@ -47,8 +47,6 @@ Methodology:
 4. In the end, students share their final results
 
 Resources:
-- [https://cssgrid-generator.netlify.app/](Grid Generator)
-- [https://cssflex-generator.netlify.app/](Flex Generator)
 
 Notes:
 - setting a fixed size to ```<div>``` as we did in phase 2 is not best practice when developing a real site, as the natural behaviour (which is to fit the size of its content) can be preferred depending on the situation. Students need to be aware of this.
