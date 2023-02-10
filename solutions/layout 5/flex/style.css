@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.half{
+    width: 48%;
+}
+
+.gauche{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content_left{
+    height: 180px;
+}
+
+.content_right{
+    height: 400px;
+    background-color: red;
+}
+
+#up{
+    background-color: blue;
+}
+
+#down{
+    background-color: green;
+}

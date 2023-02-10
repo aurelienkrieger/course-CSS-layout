@@ -1,0 +1,35 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 100vh;
+}
+
+.content{
+    border: solid 2px black;
+}
+
+#content1{
+    grid-area: 1 / 1 / 2 / 4;
+    background-color: blueviolet;
+    margin: 1em;
+}
+
+#content2{
+    grid-area: 2 / 1 / 6 / 2;
+    background-color: red;
+    margin: 1em;
+}
+
+#content3{
+    grid-area: 2 / 2 / 6 / 3;
+    background-color: green;
+    margin: 1em;
+}
+
+#content4{
+    grid-area: 2 / 3 / 6 / 4;
+    background-color: orange;
+    margin: 1em;
+}
+

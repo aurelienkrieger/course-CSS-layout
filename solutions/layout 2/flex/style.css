@@ -1,0 +1,26 @@
+#header{
+    height: 100px;
+    background-color: red;
+    border: solid 1px rgb(98, 97, 97);
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.content{
+    height: 400px;
+    border: solid 1px rgb(98, 97, 97);
+}
+
+#gauche{
+    background-color: green;
+    width: 300px;
+}
+
+#droit{
+    background-color: dodgerblue;
+    width: 800px;
+}

@@ -1,0 +1,27 @@
+#container {
+    
+    display: grid;
+    height: 30rem;
+    grid-template-rows: repeat(4, fr);
+    grid-template-columns: repeat(5, fr);
+    grid-gap: 10px;
+}
+
+#blue {
+    grid-row: 1 / span 2;
+    background-color: blue;
+}
+
+#red {
+    grid-row: 1 / 5;
+    background-color: red;
+}
+
+#green {
+    grid-row: 3 / span 2;
+    background-color: green;
+}
+
+#orange {
+    background-color: orange;
+}

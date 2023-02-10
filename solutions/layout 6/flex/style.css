@@ -1,0 +1,48 @@
+#part1{
+    background-color: red;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+#part2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.half{
+    width: 48%;
+}
+
+.content{
+    border: solid 2px black;
+}
+
+.right{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content_right{
+    height: 45%;
+}
+
+.content_left{
+    height: 450px;
+    background-color: blue;
+}
+
+#up{
+    background-color: green;
+}
+
+#down{
+    display: flex;
+    justify-content: space-between;
+}
+
+.down_purple{
+    background-color: purple;
+    width: 45%;
+}

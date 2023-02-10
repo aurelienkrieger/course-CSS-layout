@@ -1,0 +1,47 @@
+#hero{
+    height: 200px;
+    background-color: cyan;
+    margin-bottom: 20px;
+}
+
+#header{
+    height: 100px;
+    background-color: deeppink;
+    margin-bottom: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.half{
+    width: 48%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#up{
+    background-color: yellow;
+    height: 30%;
+}
+
+#down{
+    background-color: red;
+    height: 60%;
+}
+
+.content_right{
+    height: 400px;
+    background-color: blue;
+}
+
+#footer{
+    height: 100px;
+    background-color: black;
+}

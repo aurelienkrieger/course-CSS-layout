@@ -1,0 +1,38 @@
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-gap: 10px;
+    height: 100vh;
+}
+
+#cyan {
+    grid-area: 1 / 1 / 3 / 4;
+    background-color: cyan;
+}
+
+
+#pink {
+    grid-area: 3 / 1 / 4 / 4; 
+    background-color: deeppink;
+}
+
+#yellow {
+    grid-area: 4 / 1 / 5 / 2;
+    background-color: yellow;
+}
+
+#red {
+    grid-area: 5 / 1 / 7 / 2;
+    background-color: red;
+}
+
+#blue {
+    grid-area: 4 / 2 / 7 / 4;
+    background-color: blue;
+}
+
+#black {
+    grid-area: 7 / 1 / 8 / 4;
+    background-color: black;
+}
