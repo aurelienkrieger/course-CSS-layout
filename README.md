@@ -8,7 +8,7 @@
 
 In the first phase students are invited to use the online games to get familiar with grid and flex layout methods.
 
-- [Flexbox Froggy]( https://flexboxfroggy.com/)
+- [Flexbox Froggy](https://flexboxfroggy.com/)
 - [Grid Garden](https://cssgridgarden.com/)
 
 Then we can discuss the advantages to use one method over another (try to give concrete examples). See Mozilla's guide [Relationship of grid layout to other layout methods](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Relationship_of_Grid_Layout).
@@ -47,6 +47,8 @@ Methodology:
 4. In the end, students share their final results
 
 Resources:
+- [Grid Generator](https://cssgrid-generator.netlify.app/)
+- [Flex Generator](https://cssflex-generator.netlify.app/)
 
 Notes:
 - setting a fixed size to ```<div>``` as we did in phase 2 is not best practice when developing a real site, as the natural behaviour (which is to fit the size of its content) can be preferred depending on the situation. Students need to be aware of this.
