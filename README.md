@@ -17,11 +17,11 @@ Then we can discuss the advantages to use one method over another (try to give c
 
 (4-8 hours)
 
-In this second phase students need to apply the layout methods grid and flex to replicate layouts illustrated on images using their IDE and pur CSS.
+In this second phase students need to apply the layout methods grid and flex to replicate mockups using their IDE and pur CSS.
 
 Methodology:
 
-0. The images of the layouts to replicate are located inside the ```resources``` folder
+0. The mockups to replicate are located inside the ```resources``` folder
 1. Create a unique folder for each of the layouts (like separate projects) containing a ```index.html``` and ```style.css``` file.
 2. For each layout, create a HTML structure using ```<div>```.
 3. Then use CSS to apply a style to the ```<div>``` using ```background-color()``` and organise them to re-create the layout of the image. Since there is no content inside the ```<div>```, we will need to set their dimensions in ```px``` or ```%``` so that they appear on screen.
